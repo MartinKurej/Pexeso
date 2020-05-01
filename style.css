@@ -1,0 +1,24 @@
+div#board{
+    background: #313435;
+    border:rgb(0, 0, 0) 1px solid;
+    width:320px;
+    height:340px;
+    padding:15px;
+    margin:0px auto;
+}
+
+div#board > div{ 
+    border:rgb(0, 0, 0) 1px solid;
+    width:70px;
+    height:70px;
+    float:left;
+    margin:2px;
+    padding:2px;
+    font-size:37px;
+    cursor:pointer;
+    text-align:center;
+}
+
+body { 
+  background-color: gray;
+}
